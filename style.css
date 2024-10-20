@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100;1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; 
+}
+
+body {
+    background-image: url('c:/Users/pame/Pictures/light-colorful-water-color-texture-background-free-photo.jpg');
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(75, 146, 61);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000; 
+}
+
+.navbar a {
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    margin: 10px;
+    transition: color 0.2s; 
+}
+
+.navbar a:hover {
+    color: rgb(188, 208, 191);
+}
+
+.logo {
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 2%;
+}
+
+.home {
+    max-width: 900px;
+    margin: 90px 5% 0; 
+    text-align: left;
+}
+
+.home-content {
+    font-size: 20px;
+    line-height: 1.6;
+    color: black;
+}
+
+.puesto, .introduccion, .objetivos, .conceptos, .fundamentacion, .conclusion, .integrantes {
+    display: block; 
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 10px 5%; 
+   
+}
+
+.objetivos h4, .conceptos h4 {
+    margin-top: 20px; 
+}
+
+.btn-1, .btn-2 {
+    display: inline-block;
+    text-decoration: none;
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 10px 5%;
+    border-radius: 20px; 
+    color: black;
+    background-color: rgba(255, 255, 255, 0.8); 
+    transition: background-color 0.3s; 
+}
+
+.btn-1:hover {
+    background-color: rgb(75, 146, 61);
+}
+
+.btn-2:hover {
+    background-color: rgb(75, 146, 61);
+}
+
+.ley p {
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 10px 5%;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(75, 146, 61);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+.social-icons {
+    display: flex; 
+    gap: 10px; 
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: black; 
+}
+
+
+
+
